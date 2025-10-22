@@ -1,0 +1,16 @@
+{
+  "description": "Disable Command+Tab (and Command+Shift+Tab)",
+  "manipulators": [
+    {
+      "from": {
+        "key_code": "tab",
+        "modifiers": {
+          "mandatory": ["command"],
+          "optional": ["any"]
+        }
+      },
+      "to": [],
+      "type": "basic"
+    }
+  ]
+}
